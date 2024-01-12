@@ -123,7 +123,7 @@ header {
 }
 
 .text-div h3,
-.text-div p {
+.text-div p, .counter-text h3 {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -136,7 +136,35 @@ header {
     margin-bottom: 13px;
 
 }
-
+.counter{
+    padding: 96px 0;
+    background-color: #0A2640;
+    color: white;
+    text-align: center;
+}
+.counter-text-width{
+    width: 80%;
+    margin: auto;
+}
+.counter-text h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    margin-bottom: 13px;
+}
+.counder-div{
+    padding-top: 45px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.counter-child-div h1{
+    font-size: 96px;
+    line-height: 96px;
+    font-weight: 400;
+    color: #4FE9A4;
+}
 /* mid-text */
 
 
